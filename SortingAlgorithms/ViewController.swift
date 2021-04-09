@@ -11,9 +11,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
 
+    }
 
 }
 
+var demoElements: [Int] {
+    var tmp: [Int] = []
+    for i in 1...12 {
+        tmp.append(i)
+    }
+    return tmp.shuffled()
+}
