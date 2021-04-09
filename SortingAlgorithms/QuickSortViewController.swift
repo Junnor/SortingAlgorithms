@@ -12,8 +12,6 @@ class QuickSortViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        addTextMark("Quick Sort")
-
         // Sort ---------------
     }
     

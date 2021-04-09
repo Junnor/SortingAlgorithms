@@ -12,8 +12,6 @@ class RadixSortViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        addTextMark("Radix Sort")
-
         // Sort ---------------
     }
     

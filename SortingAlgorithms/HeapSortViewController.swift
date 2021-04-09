@@ -12,7 +12,6 @@ class HeapSortViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        addTextMark("Heap Sort")
 
         // Sort ---------------
     }

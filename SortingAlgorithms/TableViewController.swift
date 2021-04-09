@@ -60,6 +60,7 @@ class TableViewController: UITableViewController {
         case .heap: vc = HeapSortViewController()
         case .radix: vc = RadixSortViewController()
         }
+        vc.addTextMark(items[indexPath.item].title)
         vc.view.backgroundColor = traitCollection.userInterfaceStyle == .light ? .white : .black
         navigationController?.pushViewController(vc, animated: true)
     }

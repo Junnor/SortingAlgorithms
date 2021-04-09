@@ -12,8 +12,6 @@ class MergeSortViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        addTextMark("Merge Sort")
-
         // Sort ---------------
         let before = Helper.demoElements
         let after = mergeSort(before)

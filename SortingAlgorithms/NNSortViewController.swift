@@ -17,9 +17,7 @@ class NNSortViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        addTextMark("Bubble\n Selection\n Insertion")
-        
+                
         // Sort ---------------
         var sortType: N2SortType!
         sortType = .insertion
