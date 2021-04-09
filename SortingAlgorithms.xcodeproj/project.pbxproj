@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0127615526204A820011868E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127615426204A820011868E /* TableViewController.swift */; };
+		0127615926204BB60011868E /* NNSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127615826204BB60011868E /* NNSortViewController.swift */; };
+		0127615D26204BD90011868E /* MergeSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127615C26204BD90011868E /* MergeSortViewController.swift */; };
+		012761602620515E0011868E /* QuickSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127615F2620515E0011868E /* QuickSortViewController.swift */; };
+		012761632620517B0011868E /* HeapSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012761622620517B0011868E /* HeapSortViewController.swift */; };
+		01276166262051880011868E /* RadixSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01276165262051880011868E /* RadixSortViewController.swift */; };
 		017D76FB261EEE6D0010DDC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017D76FA261EEE6D0010DDC9 /* AppDelegate.swift */; };
 		017D76FD261EEE6D0010DDC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017D76FC261EEE6D0010DDC9 /* SceneDelegate.swift */; };
-		017D76FF261EEE6D0010DDC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017D76FE261EEE6D0010DDC9 /* ViewController.swift */; };
 		017D7702261EEE6D0010DDC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017D7700261EEE6D0010DDC9 /* Main.storyboard */; };
 		017D7704261EEE700010DDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017D7703261EEE700010DDC9 /* Assets.xcassets */; };
 		017D7707261EEE700010DDC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017D7705261EEE700010DDC9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0127615426204A820011868E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0127615826204BB60011868E /* NNSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNSortViewController.swift; sourceTree = "<group>"; };
+		0127615C26204BD90011868E /* MergeSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortViewController.swift; sourceTree = "<group>"; };
+		0127615F2620515E0011868E /* QuickSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortViewController.swift; sourceTree = "<group>"; };
+		012761622620517B0011868E /* HeapSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSortViewController.swift; sourceTree = "<group>"; };
+		01276165262051880011868E /* RadixSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadixSortViewController.swift; sourceTree = "<group>"; };
 		017D76F7261EEE6D0010DDC9 /* SortingAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortingAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		017D76FA261EEE6D0010DDC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		017D76FC261EEE6D0010DDC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		017D76FE261EEE6D0010DDC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		017D7701261EEE6D0010DDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		017D7703261EEE700010DDC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		017D7706261EEE700010DDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +68,12 @@
 			children = (
 				017D76FA261EEE6D0010DDC9 /* AppDelegate.swift */,
 				017D76FC261EEE6D0010DDC9 /* SceneDelegate.swift */,
-				017D76FE261EEE6D0010DDC9 /* ViewController.swift */,
+				0127615426204A820011868E /* TableViewController.swift */,
+				0127615826204BB60011868E /* NNSortViewController.swift */,
+				0127615C26204BD90011868E /* MergeSortViewController.swift */,
+				0127615F2620515E0011868E /* QuickSortViewController.swift */,
+				012761622620517B0011868E /* HeapSortViewController.swift */,
+				01276165262051880011868E /* RadixSortViewController.swift */,
 				017D7700261EEE6D0010DDC9 /* Main.storyboard */,
 				017D7703261EEE700010DDC9 /* Assets.xcassets */,
 				017D7705261EEE700010DDC9 /* LaunchScreen.storyboard */,
@@ -137,9 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017D76FF261EEE6D0010DDC9 /* ViewController.swift in Sources */,
+				0127615926204BB60011868E /* NNSortViewController.swift in Sources */,
 				017D76FB261EEE6D0010DDC9 /* AppDelegate.swift in Sources */,
 				017D76FD261EEE6D0010DDC9 /* SceneDelegate.swift in Sources */,
+				0127615526204A820011868E /* TableViewController.swift in Sources */,
+				012761602620515E0011868E /* QuickSortViewController.swift in Sources */,
+				0127615D26204BD90011868E /* MergeSortViewController.swift in Sources */,
+				012761632620517B0011868E /* HeapSortViewController.swift in Sources */,
+				01276166262051880011868E /* RadixSortViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
