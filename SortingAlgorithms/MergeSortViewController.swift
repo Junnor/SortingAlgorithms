@@ -12,10 +12,8 @@ class MergeSortViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let label = Helper.cneterLabelForText("Merge Sort")
-        label.frame = CGRect(x: 0, y: 200, width: UIScreen.main.bounds.width, height: 200)
-        view.addSubview(label)
-        
+        addTextMark("Merge Sort")
+
         // Sort ---------------
         let before = Helper.demoElements
         let after = mergeSort(before)

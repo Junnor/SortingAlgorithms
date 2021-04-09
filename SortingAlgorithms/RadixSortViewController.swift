@@ -12,10 +12,8 @@ class RadixSortViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let label = Helper.cneterLabelForText("Radix Sort")
-        label.frame = CGRect(x: 0, y: 200, width: UIScreen.main.bounds.width, height: 200)
-        view.addSubview(label)
-        
+        addTextMark("Radix Sort")
+
         // Sort ---------------
     }
     

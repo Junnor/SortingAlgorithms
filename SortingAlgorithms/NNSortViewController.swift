@@ -18,9 +18,7 @@ class NNSortViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let label = Helper.cneterLabelForText("Bubble\n Selection\n Insertion")
-        label.frame = CGRect(x: 0, y: 200, width: UIScreen.main.bounds.width, height: 200)
-        view.addSubview(label)
+        addTextMark("Bubble\n Selection\n Insertion")
         
         // Sort ---------------
         var sortType: N2SortType!

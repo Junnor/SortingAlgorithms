@@ -66,7 +66,6 @@ class TableViewController: UITableViewController {
     
 }
 
-
 struct Helper {
     
     static var demoElements: [Int] {
@@ -76,16 +75,18 @@ struct Helper {
         }
         return tmp.shuffled()
     }
+}
+
+extension UIViewController {
     
-    static func cneterLabelForText(_ text: String) -> UILabel {
+    func addTextMark(_ text: String) {
         let label = UILabel()
         label.text = text
         label.font = .boldSystemFont(ofSize: 30)
         label.textAlignment = .center
         label.numberOfLines = 0
-        return label
+
+        label.frame = CGRect(x: 0, y: 200, width: UIScreen.main.bounds.width, height: 200)
+        view.addSubview(label)
     }
-
 }
-
-

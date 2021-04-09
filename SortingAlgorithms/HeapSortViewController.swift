@@ -12,10 +12,8 @@ class HeapSortViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let label = Helper.cneterLabelForText("Heap Sort")
-        label.frame = CGRect(x: 0, y: 200, width: UIScreen.main.bounds.width, height: 200)
-        view.addSubview(label)
-        
+        addTextMark("Heap Sort")
+
         // Sort ---------------
     }
     

@@ -12,10 +12,8 @@ class QuickSortViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let label = Helper.cneterLabelForText("Quick Sort")
-        label.frame = CGRect(x: 0, y: 200, width: UIScreen.main.bounds.width, height: 200)
-        view.addSubview(label)
-        
+        addTextMark("Quick Sort")
+
         // Sort ---------------
     }
     
